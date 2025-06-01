@@ -1,22 +1,43 @@
 /* styles.css */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url("https://wallpapercat.com/w/full/5/f/d/268870-1920x1080-desktop-1080p-farm-background-image.jpg") ;
+    font-family: "Montserrat";
     color: #2f4f2f;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    position: relative;
+    z-index: 1;
 }
 
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../misc/images/268870-1920x1080-desktop-1080p-farm-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: brightness(0.9); /* opcional: deixa mais escuro pro texto se destacar */
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+}
 main {
     max-width: 800px;
-    margin: auto;
+    margin: 2rem auto;
     padding: 2rem;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.95); /* leve transparência */
     box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
     border-radius: 12px;
-    margin-top: 2rem;
+    position: relative;
+    z-index: 2;
 }
 
 h1 {
@@ -24,6 +45,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    font-family: "Montserrat",sans-serif;
 }
 
 ul {
