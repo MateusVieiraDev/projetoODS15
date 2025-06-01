@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url("https://wallpapercat.com/w/full/5/f/d/268870-1920x1080-desktop-1080p-farm-background-image.jpg") ;
+    color: #2f4f2f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+h1 {
+    color: #228b22;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+#cadastro-botao {
+    display: block;
+    margin: 1.5rem auto;
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cadastro-botao:hover {
+    background-color: #2e8b57;
+}
